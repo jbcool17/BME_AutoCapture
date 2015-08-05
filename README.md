@@ -6,6 +6,8 @@ Sets up count down timer that stops video capture automatically in Blackmagic Me
 
 Version 1 - needs cleaning up.
 
+Dependencies - pyautogui
+
 ##Instructions
 
 1. Find video capture length.
