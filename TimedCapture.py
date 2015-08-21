@@ -6,10 +6,8 @@
 
 import time
 import pyautogui
-#!!import sys
 
 #Enter time.
-#!! ttr_minutes = sys.argv[1] # via command line
 ttr_minutes = pyautogui.prompt('Enter Total Run Time in Minutes. Only use whole numbers.')
 
 #Convert to Seconds
@@ -27,11 +25,9 @@ for t in range(ttr_seconds,-1,-1):
 #!! pyautogui.press('esc')
 
 button_location = pyautogui.locateOnScreen('capture.png')
-# print button_location
-#(882, 956, 93, 45)
+
 bx, by = pyautogui.center(button_location)
-#print bx, by
-#(928, 978)
+
 
 pyautogui.click(bx, by) # Click Button
 
